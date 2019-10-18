@@ -1,3 +1,17 @@
 /**
  * Forms component
  */
+
+.modal-content {
+    .modal-body {
+        // Style for all form inputs
+        input {
+            @extend .form-control, .mb-3;
+        }
+
+        // Style for form button
+        button {
+            @extend .btn, .btn-primary;
+        }
+    }
+}
